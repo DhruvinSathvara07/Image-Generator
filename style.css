@@ -1,8 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    height: 100vh;
+    background: url(bg.avif);
+}
+
 .container {
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    & img {
+        border: 5px solid #cf4153;
+    }
 }
 
 .btn {
