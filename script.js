@@ -6,6 +6,8 @@ fetch(api).then((response) => response.json())
         console.log(img);
 
         const randomImageGenrator = document.querySelector("#randomImageGenrator");
+        // console.log(randomImageGenrator);
+
         randomImageGenrator.addEventListener("click", function () {
             location.reload();
         })
